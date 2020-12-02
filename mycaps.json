@@ -1,0 +1,36 @@
+{
+  "title": "Capslock Enhancement",
+  "author": "Neel Baggam(https://twitter.com/TheNeelOfficial)",
+  "homepage": "https://github.com/TheNeelOfficial/MyCaps",
+  "hostpage": "https://pqrs.org/osx/karabiner/complex_modifications/",
+  "manual": "https://github.com/TheNeelOfficial/MyCaps",
+  "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://github.com/TheNeelOfficial/MyCaps/mycaps.json",
+  "rules": [
+    {
+      "description": "CapsLock to Hyper",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "caps_lock",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_command",
+              "modifiers": [
+                "left_control",
+                "left_option"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
+
