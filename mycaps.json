@@ -4,7 +4,7 @@
   "homepage": "https://github.com/TheNeelOfficial/MyCaps",
   "hostpage": "https://pqrs.org/osx/karabiner/complex_modifications/",
   "manual": "https://github.com/TheNeelOfficial/MyCaps",
-  "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://github.com/TheNeelOfficial/MyCaps/mycaps.json",
+  "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://github.com/TheNeelOfficial/MyCaps/blob/main/mycaps.json",
   "rules": [
     {
       "description": "CapsLock to Hyper",
